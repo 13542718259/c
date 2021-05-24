@@ -3,34 +3,31 @@
 #include<time.h>
 int main(void)
 {
-	int i;
 	int ans;
 	srand(time(NULL));
-	ans = rand() % 7;
-	puts("ÇëÊäÈë0~6µÄÊı");
-	scanf_s("%d",&i);
-	switch (i)
+	ans = rand() % 7;	
+	switch (ans)
 	{
 	case 0:
-		puts("\a´ó¼ª£¡");
+		puts("\aå¤§å‰ï¼");
 		break;
 	case 1:
-		puts("\aÖĞ¼ª£¡");
+		puts("\aä¸­å‰ï¼");
 		break;
 	case 2:
-		puts("\aĞ¡¼ª£¡");
+		puts("\aå°å‰ï¼");
 		break;
 	case 3:
-		puts("\a¼ª£¡");
+		puts("\aå‰ï¼");
 		break;
 	case 4:
-		puts("\aÄ©Ğ×£¡");
+		puts("\aæœ«å‡¶ï¼");
 		break;
 	case 5:
-		puts("\aĞ×£¡");
+		puts("\aå‡¶ï¼");
 		break;
 	case 6:
-		puts("\a´ó¼ª£¡");
+		puts("\aå¤§å‰ï¼");
 		break;
 	default:
 		break;
